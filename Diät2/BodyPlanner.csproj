@@ -8,8 +8,8 @@
     <ProjectGuid>{888D1C5C-01BB-4D0E-9278-D8AA895FAB48}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Diät2</RootNamespace>
-    <AssemblyName>Diät2</AssemblyName>
+    <RootNamespace>BodyPlaner</RootNamespace>
+    <AssemblyName>BodyPlaner</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -101,6 +101,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Diät2_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
