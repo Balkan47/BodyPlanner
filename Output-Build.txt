@@ -1,1 +1,0 @@
-﻿------ Build started: Project: Diät2, Configuration: Debug x86 ------

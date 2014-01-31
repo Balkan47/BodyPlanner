@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BodyPlanner.exe" version="1.0.0.4" publicKeyToken="5e20ef4f1159423b" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="fitness.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BodyPlanner" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="BodyPlanner.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Zugangsebene für das Windows-Benutzerkonto ändern möchten, ersetzen Sie den 
+          requestedExecutionLevel-Knoten durch eines der folgenden Elemente.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Löschen Sie den requestedExecutionLevel-Knoten, wenn Sie 
+         zum Gewährleisten der Abwärtskompatibilität die Datei- und Registrierungsvirtualisierung verwenden möchten.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BodyPlanner.exe" size="315392">
+      <assemblyIdentity name="BodyPlanner" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>18WuPy4FE5v3t9m1pX23PfG8Wh4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\BodyPlanner.resources.dll" size="4608">
+      <assemblyIdentity name="BodyPlanner.resources" version="1.0.0.0" language="de" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>7un3n54GL8Uzo3L0mC93SAkEJzI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="fitness.ico" size="285700">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>03BN+G2dmVHggkH+7It8Fbzd2j0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AWA-DOM\trainee" issuerKeyHash="a2d30eacb317e0cc8d0dd0db1708631c910a2b7e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>wMi/fvALX2rr0bKupLxT+BSANgk=</DigestValue></Reference></SignedInfo><SignatureValue>OCn0MMptS46vbk8a0USwrna39AAIuTjUGjmWRvpe5spr0B3eSHzjNfHzNvpY/J53WVfm5WaWdt2HPdoJwWuxSivTdYjIygt4DE9wd15ZoNDj/VeVQzaGeqEunjvU2dW01igEx4HWFuE9bIzoahpRCL223RpGqaiECCQJeGBWMpY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>iQPUAr5VkTqQiU+o6JIiZCl1k76AxhKT6FLPlKXNpVIu2YagDkIh3PLN6WIbV33i6SD0QmC08KvOGwcpO3Jh0D+QWFC+qQqnn54p6GyD6XSiLu4vt0coxJmqc7A4GgXPzj+uV0ocyC4LbsSSY9CLsvSMCwY2dCxj/u3gGD9G6m0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="09368014f853bca4aeb2d1eb6a5f0bf07ebfc8c0" Description="" Url=""><as:assemblyIdentity name="BodyPlanner.exe" version="1.0.0.4" publicKeyToken="5e20ef4f1159423b" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AWA-DOM\trainee</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>hOZiPV4UlrircrwnlA/Lx42C6XM=</DigestValue></Reference></SignedInfo><SignatureValue>V1lOQt15UnKntC9W8F+Qv8W6rkCwXsirXGQGZgrXyaf+AUFPsK2K6Wkmn1buXOg9t2TzzPO2iib0yekOxzukwsPMZoCafnEvEWug1m4BJAyfi4ccoPmFJ2v5g6KSWHtDN5F2CYrtL9pOJc9DXlobftId+gmz1cz82OdGrFeCRa4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>iQPUAr5VkTqQiU+o6JIiZCl1k76AxhKT6FLPlKXNpVIu2YagDkIh3PLN6WIbV33i6SD0QmC08KvOGwcpO3Jh0D+QWFC+qQqnn54p6GyD6XSiLu4vt0coxJmqc7A4GgXPzj+uV0ocyC4LbsSSY9CLsvSMCwY2dCxj/u3gGD9G6m0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQYmSpXmN0r7RHCMhy8SNvITANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4AQQBXAEEALQBEAE8ATQBcAHQAcgBhAGkAbgBlAGUwHhcNMTQwMTI4MTQyNDEyWhcNMTUwMTI4MjAyNDEyWjApMScwJQYDVQQDHh4AQQBXAEEALQBEAE8ATQBcAHQAcgBhAGkAbgBlAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIkD1AK+VZE6kIlPqOiSImQpdZO+gMYSk+hSz5SlzaVSLtmGoA5CIdzyzeliG1d94ukg9EJgtPCrzhsHKTtyYdA/kFhQvqkKp5+eKehsg+l0oi7uL7dHKMSZqnOwOBoFz84/rldKHMguC27EkmPQi7L0jAsGNnQsY/7t4Bg/RuptAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAf3+ftasYHtVFFcGkhx7dWkvHFZZvqv49hPh9+HtHPU6rB9Kxn5Hsf193BmWy00oZhkyuws3WzAHe2KZVKz0JFIq2SzEQUKl+sXFENU/gsGzCKscigkUBVp/0ttWEWTGPjWa07Gvz85EoOMUD1PcVd4CKIkmiBlPr4hQW+o/hWxA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
